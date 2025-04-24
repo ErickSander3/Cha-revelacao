@@ -53,17 +53,7 @@
       font-size: 0.9em;
       color: #555;
     }
-    .balloon {
-      position: absolute;
-      bottom: -100px;
-      width: 40px;
-      animation: float 10s infinite ease-in;
-    }
-    @keyframes float {
-      0% { bottom: -100px; left: 10%; opacity: 0; }
-      50% { opacity: 1; }
-      100% { bottom: 100%; left: 80%; opacity: 0; }
-    }
+    
   </style>
 </head>
 <body>
@@ -98,9 +88,6 @@
     <p>Com carinho, Jennifer & Erick</p>
   </footer>
 
-  <img src="https://cdn-icons-png.flaticon.com/512/3468/3468835.png" class="balloon" style="left:10%; animation-delay: 0s;">
-  <img src="https://cdn-icons-png.flaticon.com/512/3468/3468852.png" class="balloon" style="left:40%; animation-delay: 3s;">
-  <img src="https://cdn-icons-png.flaticon.com/512/3468/3468854.png" class="balloon" style="left:70%; animation-delay: 5s;">
 
   <script>
     const countdownElement = document.getElementById('countdown');
